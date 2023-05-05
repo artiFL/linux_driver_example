@@ -1,0 +1,1 @@
+cmd_/home/kali/Desktop/mod/TEST_DRV/chardev.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/x86/module.lds -o /home/kali/Desktop/mod/TEST_DRV/chardev.ko /home/kali/Desktop/mod/TEST_DRV/chardev.o /home/kali/Desktop/mod/TEST_DRV/chardev.mod.o;  true
